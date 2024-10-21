@@ -36,7 +36,7 @@ ios_xe1 = {
     "address": "devnetsandboxiosxe.cisco.com",
     "username": "admin",
     "password": "C1sco12345",
-    "port": "22",
+    "ssh_port": "22",
 }
 # DevNet Always-On NETCONF/YANG & RESTCONF Sandbox Device
 # https://devnetsandbox.cisco.com/RM/Diagram/Index/7b4d4209-a17c-4bc3-9b38-f15184e53a94?diagramType=Topology

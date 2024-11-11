@@ -36,7 +36,7 @@ def main():
     #print (args.commands[0])
     for command in args.commands:
         print (json.loads(command))
-    #run_commands(args.commands[0])
+    run_commands(json.loads(args.commands[0]))
 
 if __name__ == "__main__":
     main()

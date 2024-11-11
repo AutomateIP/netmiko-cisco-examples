@@ -1,6 +1,6 @@
 from netmiko import Netmiko
 import argparse
-import sys
+import json
 
 def run_commands(commands):
     device = {
@@ -35,7 +35,7 @@ def main():
     # Pass the list of commands to the execution function
     #print (args.commands[0])
     for command in args.commands:
-        print (command)
+        print (json.loads(command))
     #run_commands(args.commands[0])
 
 if __name__ == "__main__":

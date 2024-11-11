@@ -30,12 +30,10 @@ def main():
         required=True, 
         help="Specify a command to execute. Use multiple -c flags for multiple commands."
     )
-    
-    args = parser.parse_args()
-    
+     
     # Pass the list of commands to the execution function
-    print (args.commands)
-    run_commands(args.commands)
+    print (args.commands[0])
+    run_commands(args.commands[0])
 
 if __name__ == "__main__":
     main()

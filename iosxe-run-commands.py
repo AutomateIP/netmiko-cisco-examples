@@ -33,9 +33,6 @@ def main():
     args = parser.parse_args()
 
     # Pass the list of commands to the execution function
-    #print (args.commands[0])
-    for command in args.commands:
-        print (json.loads(command))
     run_commands(json.loads(args.commands[0]))
 
 if __name__ == "__main__":

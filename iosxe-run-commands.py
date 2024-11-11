@@ -34,7 +34,7 @@ def main():
 
     # Pass the list of commands to the execution function
     #print (args.commands[0])
-    for command in args.commands[0]:
+    for command in args.commands:
         print (command)
     #run_commands(args.commands[0])
 

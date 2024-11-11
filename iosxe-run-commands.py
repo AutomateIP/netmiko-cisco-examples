@@ -2,7 +2,6 @@ from netmiko import Netmiko
 import argparse
 import sys
 
-
 def run_commands(commands):
     device = {
             "device_type": "cisco_xe",
@@ -35,6 +34,7 @@ def main():
     args = parser.parse_args()
     
     # Pass the list of commands to the execution function
+    print (args.commands)
     run_commands(args.commands)
 
 if __name__ == "__main__":

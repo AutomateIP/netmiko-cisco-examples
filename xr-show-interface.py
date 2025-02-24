@@ -1,4 +1,5 @@
 from netmiko import Netmiko
+import json
 
 devices = [{
     "device_type": "cisco_xr",
@@ -12,4 +13,4 @@ for device in devices:
     net_connect = Netmiko(**device)
     output = net_connect.send_command("show interfaces")
     net_connect.disconnect()
-    print (output)
+    print (json.loads(output))

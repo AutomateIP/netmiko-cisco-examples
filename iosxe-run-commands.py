@@ -4,12 +4,12 @@ import json
 
 def run_commands(commands):
     device = {
-            "device_type": "cisco_xe",
-            "ip": "devnetsandboxiosxe.cisco.com",
-            "username": "admin",
-            "password": "C1sco12345",
-            "port": "22",
-        }
+        "device_type": "cisco_xe",
+        "ip": "10.1.8.97",
+        "username": "itential",
+        "password": "itential",
+        "port": "22",
+    }
     for command in commands:
         # Replace this with the logic to execute each command
         #print(f"Executing command: {command}")

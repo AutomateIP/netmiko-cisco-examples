@@ -3,9 +3,9 @@ from netmiko import Netmiko
 devices = [
 {
     "device_type": "cisco_xe",
-    "ip": "devnetsandboxiosxe.cisco.com",
-    "username": "admin",
-    "password": "C1sco12345",
+    "ip": "10.1.8.97",
+    "username": "itential",
+    "password": "itential",
     "port": "22",
 }]
 
